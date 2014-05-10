@@ -13,9 +13,9 @@ and assign arbitrary classes, because both the default link plugin and the linki
 make this ridiculously difficult.
 
 Requires:
-wysiwyg (currently a dependency, though not really)
-field collection (obvs)
+- _wysiwyg_ (currently a dependency, though not really)
+- _field collection_ (obvs)
 
 Plays nicely with:
-mb (i.e. More Buttons, for the Save-and-continue functionality)
-fancybox (works to display div content in a lightbox by html id, as opposed to lightbox2 which re-renders the whole page)
+- _mb_ (i.e. More Buttons, for the Save-and-continue functionality)
+- _fancybox_ (works to display div content in a lightbox by html id, as opposed to lightbox2 which re-renders the whole page)
