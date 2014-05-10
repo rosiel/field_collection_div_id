@@ -1,6 +1,8 @@
 field_collection_div_id
 =======================
 
+This is a Drupal module.
+
 Do you want to create anchors to the field collection items on your node page? 
 For instance, to load field collection data in a light box? 
 
