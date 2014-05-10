@@ -1,0 +1,37 @@
+CKEDITOR.plugins.add( 'anchorLink', 
+{
+  init: function( editor )
+  {
+    editor.addCommand( 'makeAnchorLink', 
+		{
+		  exec : function( editor )
+		  {
+		    editor.insertHtml( '<a href="#foo" class="bar">text</a>' );
+		  }
+		});
+	editor.ui.addButton( 'anchorLink', 
+		{
+		  label: 'Insert link to Anchor',
+		  command: 'makeAnchorLink',
+		  icon: this.path + 'images/anchor.gif',
+		});
+
+  }
+} );
+CKEDITOR.dialog.add( 'anchorLinkDialog', function ( editor )
+{
+  return {
+	  title: 'Link Properties',
+	  minWidth: 400,
+	  minHeight: 200,
+	  contents: 
+	  [
+	    {
+			id : 'general',
+	        label : 'Settings',
+	        elements : []
+		}
+	  ]
+  };
+		
+});

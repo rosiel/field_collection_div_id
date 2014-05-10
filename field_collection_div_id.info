@@ -1,0 +1,6 @@
+name = Field Collection Div id
+description = Add div ids to field collections
+core =  7.x
+dependencies[] = wysiwyg
+dependencies[] = field_collection
+
